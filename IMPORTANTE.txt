@@ -1,0 +1,25 @@
+Instalar:
+Node.js
+npm
+
+Dependencias:
+npm install express crypto-js
+
+Executar no terminal:
+node main.js
+
+Executar no Postman
+Get Blocks: (GET) http://localhost:3000/blocks
+
+Mine Block: (POST) http://localhost:3000/mine
+
+Create Transaction: (POST)(Body)(raw)(JSON) http://localhost:3000/transactions
+Colocar na transação:
+{
+  "sender": "5c01186a69af91b998bf0897bcf39822b29c49148b92cbc91fc94a56ca253f54",
+  "recipient": "45d31d9a7ecddc799bb47056ef52dc6f96f8d1dd2d22109da2f719f7a6902fe4",
+  "amount": 50,
+  "privateKey": "-----BEGIN PRIVATE KEY-----MIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDyRbFfvL6XD47M +rhU+KmhBFX1iGOy913YxlLt2Rwr8S029F+cgfMdgIw6MoHrAUR9lJqpuNUc25tp MDtkqR21INyCQ0o18NgdRE3zAeygra7M9+1vaAQEmiJCpYb++TkLzSdPEf8Zea4P ahphe26BQNms6lLdWQgEzBZTfyX7FJSnpymqd/DYxNobm5jhX4owGW7U9TR77dnV I8aZDg/e9ohZbvGMasJbdEUXqjNKQ8I/nrxerEcFifnODgs7dS5RvRmWukpRVhhE +OIbPZefTAu1OoEBq7XGKLpEXN56LPbjPqX5m7Vnb4YH01x1uMz6uiOYdHwwn+D9 6O1xaHFHAgMBAAECggEAJCOhQda113LKqmj79jDhnNM4v1eJB7k+lod+91vbh/KB /CCX4pC/4za5tDS0jImz3ce9CnQ31gYsOJSpR2qys8IjIotHFqTGmBcISaeP1KgT 2x9gm624a7dSRP7MFFy41bnUk0br9rDf9gytwrzWzxENZ23MzpfpSk3nRq1AzSMK e/sy58zFTOBBSbDy0A74GFO7BrDeyB/VtO0Qo4XzNFyBTG31pPLVlUrlgiArMo7T N3yOeCuforcX4GY6Te0ZikaQbaiVwyZ/uVmymkN/VOPm+irZ58gostBXaKrlPUAv aDjRgLKhYxTnpUu4VzB/if4f0s5KrsRe4qlGuoPmgQKBgQD710oDRAm2owzZX2t3 VD2CRagwypf6u0LWW/lIWsGNcU33Cf4bfI4YmbfTjYKkWnYbAi1jdTdFkRyDFy49 wrYXdiGw/1yyeMJwcFpmyzzy5zfaIHZNTzTtiCffLz7Ish7VDrK8uBDpqXKNkgj8 +vcaevSeqwCpbH2GtvHOZn5VMwKBgQD2RfMtBn3ORyuw3hE3uyy2BckkNaCJ9lWY 7Sb+2z7s/+RVlJe/XFByPOe8MnAc5r3/5ky9WDlOLC+YdLllCRo7iRBxsshYRZxh BqaMYx24nFdW694Sh0Ejtm8zQKGzho0sFbFdfBeFM/os/DJX3JFWd3P6o1dl6DEU H13yHKcLnQKBgDBqIAFmuBNTXyn+zRMgr752k7HlkLgT/fJlthOx1tnROXLPiflQ xaR3EL7ryny8I05n6b/gDeMi1X9iGnKnFwiFnk5/mRt6Wa7x+n8efTYZO0SEzxln q74qWbfvRjug+optC/F51U6GU85hj7bKrGx7zMEgEL2BbNRUIUJTs9+/AoGATWJD fCVrCJNCfkv5Gwr8jKGax372WAOIeAok07YuuqfZpq6PVDj8qjjLFE7A/cPfdfZ2 rJR5RUALIJuk2cOXc5epDCECZQJSlgZR9RD7+NNfeleZKzdG16LupCst5ExmNbEH T3m7pkZj2RjR9NvA62uTjPEgeEwSh+EnUvl/390CgYBMhvczex75xrSDaI9gMpuu +MtyvtiwdbCL2YVZt/uwQpJq29aMRkUEoImuSMi1GFZ9b5VJyPcJMXIlb4vk1B6d UyZo7Ni7NXglxXMakReBhAI4Oe5dLpKbquDOFRcWl6m6yrPt5pxKAFjXtg3Z550H oyQT0dRUjry+v855S4vUEQ==-----END PRIVATE KEY-----"
+}
+
+Check Balance: (GET) http://localhost:3000/balance/45d31d9a7ecddc799bb47056ef52dc6f96f8d1dd2d22109da2f719f7a6902fe4

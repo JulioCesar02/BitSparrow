@@ -1,0 +1,25 @@
+{
+  "name": "bitsparrow",
+  "version": "1.0.0",
+  "description": "Criptomoeda BitSparrow",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "criptomoeda",
+    "bitsparrow"
+  ],
+  "author": "J P F",
+  "license": "ISC",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "crypto-js": "^4.2.0",
+    "express": "^4.18.2",
+    "mongodb": "^6.3.0",
+    "mongoose": "^8.0.1",
+    "nodejs": "^0.0.0",
+    "redis": "^4.6.11",
+    "winston": "^3.11.0"
+  }
+}
